@@ -4,7 +4,7 @@
         label 'nodejs'
        }
        environment {
-           DOCKER_IMAGE = 'harbor.bahur:8443/test-project/nodejs-app:latest'
+           DOCKER_IMAGE = 'harbor.bahur:8443/nodejs/nodejs-app:latest'
 
        }
 
@@ -14,7 +14,7 @@
                    script {
                        checkout([$class: 'GitSCM',
                                  branches: [[name: '*/main']],
-                                 userRemoteConfigs: [[url: 'https://github.com/ina-ene/practice_jenkins_nodejs.git', credentialsId: 'github-token']]
+                                 userRemoteConfigs: [[url: 'https://github.com/ina-ene/nodejskub.git', credentialsId: 'github-token']]
                         ])
                    }
                 }
