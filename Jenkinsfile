@@ -4,7 +4,7 @@
         label 'nodejs'
        }
        environment {
-           DOCKER_IMAGE = 'harbor.bahur:8443/nodejs/nodejs-app:latest'
+           DOCKER_IMAGE = 'harbor.bahur:443/nodejs/nodejs-app:latest'
 
        }
 
@@ -33,7 +33,7 @@
             
                    script {
                        // Log in to Harbor and push the built image
-                       docker.withRegistry('https://harbor.bahur:8443', 'jenkins-harbor-robot') {
+                       docker.withRegistry('https://harbor.bahur:443', 'jenkins-harbor-robot') {
                            dockerImage.push()
                        }
                    }
