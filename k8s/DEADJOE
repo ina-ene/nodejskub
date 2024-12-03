@@ -1,0 +1,28 @@
+
+*** These modified files were found in JOE when it aborted on Mon Dec  2 18:14:11 2024
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+$1
+
+*** File '(Unnamed)'
+harbor.bahur
+
+*** File '(Unnamed)'
+gen_crt.sh
+gen_crt.sh
+gen_crt.sh
+gen_crt.sh
+file.ext
+file.ext
+gen_crt.sh
+gen_crt.sh
+package.json
+package.json
+deployment.yaml
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
