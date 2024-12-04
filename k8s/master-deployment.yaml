@@ -30,6 +30,7 @@ spec:
       containers:
       - name: nodejs-app
         image: harbor.bahur/nodejs/nodejs-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
         resources:
